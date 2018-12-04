@@ -468,6 +468,16 @@ public class SereinExtTelephony extends IExtTelephony.Stub {
     }
 
     @Override
+    public Token queryUpperLayerIndInfo(int slotId, Client client){
+	return null;
+    }
+
+    @Override
+    public Token query5gConfigInfo(int slotId, Client client){
+	return null;
+    }
+
+    @Override
     public Token enable5g(int slotId, Client client){
         // I hope we don't use this
         return null;
