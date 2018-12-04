@@ -111,7 +111,7 @@ public class SereinExtTelephony extends IExtTelephony.Stub {
         sInstance = getInstance(context, phones, commandsInterfaces);
     }
 
-    public static SereinTelephony getInstance(Context context, Phone[] phones,
+    public static SereinExtTelephony getInstance(Context context, Phone[] phones,
             CommandsInterface[] commandsInterfaces) {
         if (sInstance == null) {
             sInstance = new SereinExtTelephony(context, phones, commandsInterfaces);
